@@ -4,11 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-            }
-            
-            steps {
-                echo '$(date)'
+                echo 'Building.. da da'
             }
         }
     }
